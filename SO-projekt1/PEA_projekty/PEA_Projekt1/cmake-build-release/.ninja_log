@@ -1,0 +1,15 @@
+# ninja log v5
+32	878	7542508478608484	CMakeFiles/PEA_Projekt1.dir/Graph.cpp.obj	76c2a9a1d68f9f93
+3	702	7542598107025932	CMakeFiles/PEA_Projekt1.dir/main.cpp.obj	bad7f1579b555462
+27	493	7527745239337517	CMakeFiles/PEA_Projekt1.dir/Timer.cpp.obj	cb0af6f56247153c
+12	1000	7542508479886322	CMakeFiles/PEA_Projekt1.dir/FileManager.cpp.obj	588f77578ce195a7
+40	924	7542508479116786	CMakeFiles/PEA_Projekt1.dir/BruteForce.cpp.obj	83ff0257997d6db6
+25	1212	7542508481999830	CMakeFiles/PEA_Projekt1.dir/GraphGenerator.cpp.obj	382bccd7568b4d48
+902	1002	7542598109986130	PEA_Projekt1.exe	a6e8b59b556b192
+15	485	7542598104853164	CMakeFiles/PEA_Projekt1.dir/Dynamic.cpp.obj	a2cbb5411d780e5d
+9	901	7542598109019362	CMakeFiles/PEA_Projekt1.dir/Interface.cpp.obj	90c1a2a0243e1b64
+49	2389	7542508493780435	CMakeFiles/PEA_Projekt1.dir/BnBLittle.cpp.obj	9c13397d73e2d2e2
+3	355	7542599700834100	CMakeFiles/PEA_Projekt1.dir/Dynamic.cpp.obj	a2cbb5411d780e5d
+356	432	7542599701561704	PEA_Projekt1.exe	a6e8b59b556b192
+3	332	7558372733508103	CMakeFiles/PEA_Projekt1.dir/Graph.cpp.obj	76c2a9a1d68f9f93
+332	468	7558372734843678	PEA_Projekt1.exe	a6e8b59b556b192

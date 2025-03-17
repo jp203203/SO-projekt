@@ -1,0 +1,11 @@
+# ninja log v5
+12	542	7560208844174299	CMakeFiles/Pea_Projekt2.dir/NearestNeighbor.cpp.obj	c8e687b970f8afc0
+8	378	7551123632728112	CMakeFiles/Pea_Projekt2.dir/FileReader.cpp.obj	6739a2d5956c1306
+10	359	7557453544848646	CMakeFiles/Pea_Projekt2.dir/Graph.cpp.obj	5844bffae620198e
+8	767	7560208846416829	CMakeFiles/Pea_Projekt2.dir/main.cpp.obj	8f7d52354f93ab7f
+860	1026	7560222800375717	Pea_Projekt2.exe	6c3ac91e63a0be34
+23	562	7557430166863647	CMakeFiles/Pea_Projekt2.dir/Timer.cpp.obj	29ee020590165acd
+2	395	7560212075119445	CMakeFiles/Pea_Projekt2.dir/FileManager.cpp.obj	83da905d59493280
+3	860	7560222798761157	CMakeFiles/Pea_Projekt2.dir/Interface.cpp.obj	6c58474b9af9064c
+16	906	7560208847797896	CMakeFiles/Pea_Projekt2.dir/SimAnnealing.cpp.obj	1525471fda7fea38
+3	811	7559341228491576	CMakeFiles/Pea_Projekt2.dir/TabuSearch.cpp.obj	5203fe9170310c58
