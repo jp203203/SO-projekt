@@ -1,8 +1,0 @@
-# ninja log v5
-3	847	7379443037328349	CMakeFiles/untitled2.dir/main.cpp.obj	2f2230acbcbb8f72
-3	810	7379473058614727	CMakeFiles/untitled2.dir/main2.cpp.obj	12ddfe207d487944
-3	68	7388108904825595	untitled2.exe	eeb26ee592199b45
-3	844	7388108328909197	CMakeFiles/untitled2.dir/calc_xmm.cpp.obj	cf0d63cb9253becf
-0	221	7388109176487733	build.ninja	c08971a567ede95
-3	884	7388110518118444	CMakeFiles/untitled2.dir/calc_xmm.cpp.obj	cf0d63cb9253becf
-885	950	7388110518746303	untitled2.exe	eeb26ee592199b45
