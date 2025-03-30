@@ -55,7 +55,7 @@ build CMakeFiles/SO2_Projekt1.dir/main.cpp.obj: CXX_COMPILER__SO2_Projekt1_unsca
   OBJECT_DIR = CMakeFiles\SO2_Projekt1.dir
   OBJECT_FILE_DIR = CMakeFiles\SO2_Projekt1.dir
 
-build CMakeFiles/SO2_Projekt1.dir/Philosopher.cpp.obj: CXX_COMPILER__SO2_Projekt1_unscanned_Debug C$:/Users/kubap/CLionProjects/SO2_Projekt1/cmake-build-debug/Philosopher.cpp || cmake_object_order_depends_target_SO2_Projekt1
+build CMakeFiles/SO2_Projekt1.dir/Philosopher.cpp.obj: CXX_COMPILER__SO2_Projekt1_unscanned_Debug C$:/Users/kubap/CLionProjects/SO2_Projekt1/Philosopher.cpp || cmake_object_order_depends_target_SO2_Projekt1
   DEP_FILE = CMakeFiles\SO2_Projekt1.dir\Philosopher.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\SO2_Projekt1.dir

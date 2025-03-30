@@ -11,6 +11,8 @@ public:
     Philosopher(int id, std::mutex& left_fork, std::mutex& right_fork)
         : id(id), left_fork(left_fork), right_fork(right_fork) {};
 
+    static int num_philosophers;
+
     void startDining();
 
 private:
