@@ -19,6 +19,15 @@ w którym znajduje się plik wykonywalny, należy wpisać w terminalu:
 ```
 wine SO2_Projekt1.exe [liczba_filozofow]
 ```
+Aby nie korzystać z programu Wine, należy samemu zbudować aplikację. W katalogu plików należy odpalić terminal i skorzystać z kompilatora G++:
+```
+g++ main.cpp Philosopher.cpp -o philosophers -std=c++17 -pthread
+```
+Aby uruchomić program, wystarczy wpisać w terminalu:
+```
+./philosophers [liczba_filozofow]
+```
+
 Liczba filozofów nie może być mniejsza od 2, w innym wypadku wywołanie programu zakończy się błędem.
 ## Wątki, sekcje krytyczne
 ### Wątki
