@@ -15,11 +15,12 @@
 		[
 			"_add_executable",
 			"add_executable",
-			"target_link_libraries"
+			"target_link_libraries",
+			"include_directories"
 		],
 		"files" : 
 		[
-			"vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/scripts/buildsystems/vcpkg.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -30,7 +31,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 9,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
@@ -42,7 +43,19 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 14,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -59,7 +72,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/include"
 				}
@@ -93,12 +106,22 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "-mconsole",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 3,
 				"fragment" : "C:\\Users\\kubap\\CLionProjects\\SO2_Projekt2\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_system-vc143-mt-gd-x64-1_88.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lmswsock",
 				"role" : "libraries"
 			},
 			{

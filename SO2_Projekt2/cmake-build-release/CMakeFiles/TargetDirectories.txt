@@ -1,4 +1,4 @@
-C:/Users/kubap/CLionProjects/SO2_Projekt2/cmake-build-release/CMakeFiles/ChatServer.dir
-C:/Users/kubap/CLionProjects/SO2_Projekt2/cmake-build-release/CMakeFiles/ChatClient.dir
-C:/Users/kubap/CLionProjects/SO2_Projekt2/cmake-build-release/CMakeFiles/edit_cache.dir
-C:/Users/kubap/CLionProjects/SO2_Projekt2/cmake-build-release/CMakeFiles/rebuild_cache.dir
+C:/Users/kubap/SO-projekt/SO2_Projekt2/cmake-build-release/CMakeFiles/ChatServer.dir
+C:/Users/kubap/SO-projekt/SO2_Projekt2/cmake-build-release/CMakeFiles/ChatClient.dir
+C:/Users/kubap/SO-projekt/SO2_Projekt2/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/kubap/SO-projekt/SO2_Projekt2/cmake-build-release/CMakeFiles/rebuild_cache.dir

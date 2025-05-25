@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ChatClient.exe"
+			"path" : "ChatServer.exe"
 		},
 		{
-			"path" : "ChatClient.pdb"
+			"path" : "ChatServer.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -14,11 +14,13 @@
 		"commands" : 
 		[
 			"_add_executable",
-			"add_executable"
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
 		],
 		"files" : 
 		[
-			"vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/scripts/buildsystems/vcpkg.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -29,7 +31,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 17,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
@@ -37,6 +39,24 @@
 				"file" : 0,
 				"line" : 598,
 				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
 			}
 		]
 	},
@@ -46,7 +66,15 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-O3 -DNDEBUG -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/include"
 				}
 			],
 			"language" : "CXX",
@@ -54,7 +82,10 @@
 			{
 				"backtraces" : 
 				[
-					2
+					3,
+					3,
+					3,
+					3
 				],
 				"standard" : "17"
 			},
@@ -65,18 +96,33 @@
 			]
 		}
 	],
-	"id" : "ChatClient::@6890427a1f51a3e7e1df",
+	"id" : "ChatServer::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-O3 -DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "-mconsole",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "C:\\Users\\kubap\\CLionProjects\\SO2_Projekt2\\vcpkg\\installed\\x64-windows\\lib\\boost_system-vc143-mt-x64-1_88.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lmswsock",
+				"role" : "libraries"
 			},
 			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
@@ -85,8 +131,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "ChatClient",
-	"nameOnDisk" : "ChatClient.exe",
+	"name" : "ChatServer",
+	"nameOnDisk" : "ChatServer.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -115,18 +161,18 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "client/main.cpp",
+			"path" : "server/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "client/ChatClient.cpp",
+			"path" : "server/ChatServer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"path" : "client/ChatClient.h",
+			"path" : "server/ChatServer.h",
 			"sourceGroupIndex" : 1
 		}
 	],

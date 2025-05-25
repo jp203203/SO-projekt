@@ -3,7 +3,9 @@
 
 ChatServer::ChatServer(boost::asio::io_context& io_context, unsigned short port)
     : io_context_(io_context),
-      acceptor_(io_context, boost::asio::ip::tcp::endpoint(boost::asio::ip::tcp::v4(), port)) {}
+      acceptor_(io_context, boost::asio::ip::tcp::endpoint(boost::asio::ip::tcp::v4(), port)) {
+    std::cout << "\033[35mServer is listening...\033[0m\n";
+}
 
 // initializes incoming connection acceptance
 void ChatServer::startAccept() {
@@ -26,16 +28,19 @@ bool ChatServer::isUsernameTaken(const std::string& username) {
     return clients_.find(username) != clients_.end();
 }
 
-// sends a message to every user besides the one with given username
-boost::system::error_code ChatServer::broadcastMessage(const std::string& username, const std::string& message) {
+// sends a message to every user, optionally ignores the specified user
+boost::system::error_code ChatServer::broadcastMessage(const std::string& message, const std::string& username="") {
     boost::system::error_code error;
 
+    // locks the access to client sockets
     std::lock_guard<std::mutex> lock(clients_mutex_);
     for (const auto &[name, client_socket]: clients_) {
         if (name != username && client_socket->is_open()) {
             boost::asio::write(*client_socket, boost::asio::buffer(message), error);
         }
     }
+    // also log the message on the server
+    std::cout << message;
 
     return error;
 }
@@ -49,7 +54,7 @@ void ChatServer::handleClient(const std::shared_ptr<boost::asio::ip::tcp::socket
 
         // loop to obtain a unique username
         while(true) {
-            std::string un_prompt = "Enter a username: ";
+            std::string un_prompt = "\033[33mEnter a username:\033[0m ";
             boost::asio::write(*socket, boost::asio::buffer(un_prompt), error);
             if(error) return;
 
@@ -70,37 +75,37 @@ void ChatServer::handleClient(const std::shared_ptr<boost::asio::ip::tcp::socket
                     clients_[username] = socket;
                 }
                 // send a welcome message to the user
-                std::string welcome_msg = "Welcome, " + username + "!\n";
+                std::string welcome_msg = "\033[33mWelcome, " + username + "!\033[0m\n"; // welcome message
                 boost::asio::write(*socket, boost::asio::buffer(welcome_msg), error);
 
                 // send a message about user joining the chat
-                std::string joined_msg = "User " + username + " joined the chat.\n";
-                error = broadcastMessage(username, joined_msg);
+                std::string joined_msg = "\033[33mUser " + username + " joined the chat.\033[0m\n";
+                error = broadcastMessage(joined_msg, username);
 
                 break; // if username accepted, exit loop
             } else {
-                std::string taken_msg = "Username already taken, try another.\n";
+                std::string taken_msg = "\033[31mUsername already taken, try another.\033[0m\n";
                 boost::asio::write(*socket, boost::asio::buffer(taken_msg), error);
             }
         }
 
-        // listen for messages from the user and send them to all other connected clients
+        // listen for messages from the user and send them to all connected clients
         for(;;) {
             size_t length = socket->read_some(boost::asio::buffer(data), error);
             if(error) {
                 // if error, send a message about user disconnecting
-                std::string left_msg = "User " + username + " left the chat.";
-                error = broadcastMessage(username, left_msg);
+                std::string left_msg = "\033[33mUser " + username + " left the chat.\033[0m\n";
+                error = broadcastMessage(left_msg, username);
 
                 break;
             }
 
-            // add prefix with username
-            std::string message = username + ": " + std::string(data, length);
-            error = broadcastMessage(username, message);
+            // add prefix with username to the message
+            std::string message = "\033[3;32m" + username + ":\033[0m " + std::string(data, length);
+            error = broadcastMessage(message);
         }
     } catch(...) {
-        std::cerr << "Client error or disconnected.\n";
+        std::cerr << "\033[31mClient error or disconnected.\033[0m\n";
     }
 
     // remove the disconnected client from the list

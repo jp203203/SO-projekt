@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ChatServer.exe"
+			"path" : "ChatClient.exe"
 		},
 		{
-			"path" : "ChatServer.pdb"
+			"path" : "ChatClient.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -15,11 +15,12 @@
 		[
 			"_add_executable",
 			"add_executable",
-			"target_link_libraries"
+			"target_link_libraries",
+			"include_directories"
 		],
 		"files" : 
 		[
-			"vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/scripts/buildsystems/vcpkg.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -30,7 +31,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 9,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -42,7 +43,19 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 14,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -59,7 +72,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/include"
 				}
@@ -83,7 +96,7 @@
 			]
 		}
 	],
-	"id" : "ChatServer::@6890427a1f51a3e7e1df",
+	"id" : "ChatClient::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -93,12 +106,22 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
+				"fragment" : "-mconsole",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 3,
 				"fragment" : "C:\\Users\\kubap\\CLionProjects\\SO2_Projekt2\\vcpkg\\installed\\x64-windows\\lib\\boost_system-vc143-mt-x64-1_88.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lmswsock",
 				"role" : "libraries"
 			},
 			{
@@ -108,8 +131,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "ChatServer",
-	"nameOnDisk" : "ChatServer.exe",
+	"name" : "ChatClient",
+	"nameOnDisk" : "ChatClient.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -138,18 +161,18 @@
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "server/main.cpp",
+			"path" : "client/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
-			"path" : "server/ChatServer.cpp",
+			"path" : "client/ChatClient.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
-			"path" : "server/ChatServer.h",
+			"path" : "client/ChatClient.h",
 			"sourceGroupIndex" : 1
 		}
 	],

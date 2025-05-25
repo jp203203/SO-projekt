@@ -54,30 +54,6 @@
 			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/bin/boost_system-vc143-mt-x64-1_88.dll"
 		},
 		{
-			"name" : "Boost_THREAD_LIBRARY_DEBUG",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "STRING",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/debug/bin/boost_thread-vc143-mt-gd-x64-1_88.dll"
-		},
-		{
-			"name" : "Boost_THREAD_LIBRARY_RELEASE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "STRING",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/bin/boost_thread-vc143-mt-x64-1_88.dll"
-		},
-		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -131,7 +107,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/kubap/CLionProjects/SO2_Projekt2/cmake-build-release"
+			"value" : "c:/Users/kubap/SO-projekt/SO2_Projekt2/cmake-build-release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -651,7 +627,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/cmake-build-release/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/kubap/SO-projekt/SO2_Projekt2/cmake-build-release/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -714,18 +690,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -735,7 +699,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2"
+			"value" : "C:/Users/kubap/SO-projekt/SO2_Projekt2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1351,10 +1315,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "FILEPATH",
 			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/scripts/buildsystems/vcpkg.cmake"
 		},
 		{
@@ -1395,7 +1359,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/cmake-build-release"
+			"value" : "C:/Users/kubap/SO-projekt/SO2_Projekt2/cmake-build-release"
 		},
 		{
 			"name" : "SO2_Projekt2_IS_TOP_LEVEL",
@@ -1419,7 +1383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2"
+			"value" : "C:/Users/kubap/SO-projekt/SO2_Projekt2"
 		},
 		{
 			"name" : "VCPKG_APPLOCAL_DEPS",
@@ -1666,54 +1630,6 @@
 			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed"
 		},
 		{
-			"name" : "boost_algorithm_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_algorithm."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_algorithm"
-		},
-		{
-			"name" : "boost_align_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_align."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_align"
-		},
-		{
-			"name" : "boost_array_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_array."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_array"
-		},
-		{
-			"name" : "boost_asio_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_asio."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_asio"
-		},
-		{
 			"name" : "boost_assert_DIR",
 			"properties" : 
 			[
@@ -1724,54 +1640,6 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_assert"
-		},
-		{
-			"name" : "boost_atomic_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_atomic."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_atomic"
-		},
-		{
-			"name" : "boost_bind_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_bind."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_bind"
-		},
-		{
-			"name" : "boost_chrono_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_chrono."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_chrono"
-		},
-		{
-			"name" : "boost_concept_check_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_concept_check."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_concept_check"
 		},
 		{
 			"name" : "boost_config_DIR",
@@ -1786,162 +1654,6 @@
 			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_config"
 		},
 		{
-			"name" : "boost_container_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_container."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_container"
-		},
-		{
-			"name" : "boost_container_hash_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_container_hash."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_container_hash"
-		},
-		{
-			"name" : "boost_context_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_context."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_context"
-		},
-		{
-			"name" : "boost_conversion_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_conversion."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_conversion"
-		},
-		{
-			"name" : "boost_core_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_core."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_core"
-		},
-		{
-			"name" : "boost_date_time_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_date_time."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_date_time"
-		},
-		{
-			"name" : "boost_describe_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_describe."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_describe"
-		},
-		{
-			"name" : "boost_detail_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_detail."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_detail"
-		},
-		{
-			"name" : "boost_exception_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_exception."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_exception"
-		},
-		{
-			"name" : "boost_function_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_function."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_function"
-		},
-		{
-			"name" : "boost_function_types_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_function_types."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_function_types"
-		},
-		{
-			"name" : "boost_functional_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_functional."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_functional"
-		},
-		{
-			"name" : "boost_fusion_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_fusion."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_fusion"
-		},
-		{
 			"name" : "boost_headers_DIR",
 			"properties" : 
 			[
@@ -1952,78 +1664,6 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_headers"
-		},
-		{
-			"name" : "boost_integer_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_integer."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_integer"
-		},
-		{
-			"name" : "boost_intrusive_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_intrusive."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_intrusive"
-		},
-		{
-			"name" : "boost_io_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_io."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_io"
-		},
-		{
-			"name" : "boost_iterator_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_iterator."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_iterator"
-		},
-		{
-			"name" : "boost_lexical_cast_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_lexical_cast."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_lexical_cast"
-		},
-		{
-			"name" : "boost_move_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_move."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_move"
 		},
 		{
 			"name" : "boost_mp11_DIR",
@@ -2038,54 +1678,6 @@
 			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_mp11"
 		},
 		{
-			"name" : "boost_mpl_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_mpl."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_mpl"
-		},
-		{
-			"name" : "boost_numeric_conversion_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_numeric_conversion."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_numeric_conversion"
-		},
-		{
-			"name" : "boost_optional_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_optional."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_optional"
-		},
-		{
-			"name" : "boost_pool_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_pool."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_pool"
-		},
-		{
 			"name" : "boost_predef_DIR",
 			"properties" : 
 			[
@@ -2096,78 +1688,6 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_predef"
-		},
-		{
-			"name" : "boost_preprocessor_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_preprocessor."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_preprocessor"
-		},
-		{
-			"name" : "boost_range_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_range."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_range"
-		},
-		{
-			"name" : "boost_ratio_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_ratio."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_ratio"
-		},
-		{
-			"name" : "boost_regex_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_regex."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_regex"
-		},
-		{
-			"name" : "boost_smart_ptr_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_smart_ptr."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_smart_ptr"
-		},
-		{
-			"name" : "boost_static_assert_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_static_assert."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_static_assert"
 		},
 		{
 			"name" : "boost_system_DIR",
@@ -2182,18 +1702,6 @@
 			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_system"
 		},
 		{
-			"name" : "boost_thread_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_thread."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_thread"
-		},
-		{
 			"name" : "boost_throw_exception_DIR",
 			"properties" : 
 			[
@@ -2204,78 +1712,6 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_throw_exception"
-		},
-		{
-			"name" : "boost_tokenizer_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_tokenizer."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_tokenizer"
-		},
-		{
-			"name" : "boost_tuple_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_tuple."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_tuple"
-		},
-		{
-			"name" : "boost_type_traits_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_type_traits."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_type_traits"
-		},
-		{
-			"name" : "boost_typeof_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_typeof."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_typeof"
-		},
-		{
-			"name" : "boost_unordered_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_unordered."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_unordered"
-		},
-		{
-			"name" : "boost_utility_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for boost_utility."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/Users/kubap/CLionProjects/SO2_Projekt2/vcpkg/installed/x64-windows/share/boost_utility"
 		},
 		{
 			"name" : "boost_variant2_DIR",

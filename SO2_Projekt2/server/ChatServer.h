@@ -15,7 +15,7 @@ public:
 private:
     void handleClient(const std::shared_ptr<boost::asio::ip::tcp::socket>& socket);
     bool isUsernameTaken(const std::string& username);
-    boost::system::error_code broadcastMessage(const std::string& username, const std::string& message);
+    boost::system::error_code broadcastMessage(const std::string& message, const std::string& username);
 
     boost::asio::ip::tcp::acceptor acceptor_;
     boost::asio::io_context& io_context_;
